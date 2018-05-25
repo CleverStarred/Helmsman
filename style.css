@@ -1,0 +1,662 @@
+/*CSS RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*CSS RESET*/
+
+.properties-page-header {
+  display: flex;
+  align-items: center;
+  padding: 20px 75px;
+}
+
+.properties-page-header .properties-page-burger-menu {
+  position: relative;
+  right: 45px;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.properties-page-header .properties-page-burger-menu .properties-page-line {
+  height: 2.5px;
+  width: 30px;
+  background-color: #000000;
+}
+
+.properties-page-header .properties-page-helmsmen-logo {
+  height: 45px;
+  width: 225px;
+  margin-right: 150px;
+}
+
+.properties-page-header ul li {
+  display: inline-block;
+}
+
+.properties-page-header ul li a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.properties-page-header ul li a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.properties-page-header .properties-page-borderless {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.properties-page-first-section {
+  display: flex;
+}
+
+.properties-page-first-section .carousel {
+  flex: 0 0 60%;
+}
+
+.properties-page-first-section .carousel .carousel-inner, .properties-page-first-section .carousel .carousel-inner .carousel-item {
+  height: 100%;
+}
+
+.properties-page-first-section .carousel img {
+  background-size: contain;
+}
+
+.properties-page-first-section .carousel .carousel-indicators {
+  bottom: 50px;
+}
+
+.properties-page-first-section .carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.properties-page-first-section .properties-page-carlston-house {
+  font-family: 'Poppins', serif;
+}
+
+.properties-page-rounded-button {
+  display: inline-block;
+}
+
+.properties-page-rounded-button img {
+  width: 18px;
+  height: 18px;
+}
+
+.properties-page-rounded-button button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #CCCDCD;
+  border-radius: 100px;
+  width: 200px;
+  height: 51px;
+  outline: none;
+  color: #000000;
+  font-weight: bolder;
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.properties-page-rounded-button.properties-page-black button {
+  color: #ffffff;
+  border: none;
+  background: #000000;
+}
+
+.properties-page-text-icon {
+  display: flex;
+  align-items: center;
+}
+
+.properties-page-text-icon span {
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.79;
+  letter-spacing: 1px;
+}
+
+.properties-page-carlston-house {
+  flex: 0 0 40%;
+  background: #F1F2F6;
+  padding: 75px 15px 75px 60px;
+}
+
+.properties-page-carlston-house hr {
+  width: 25px;
+  margin: 20px auto 17.5px 0;
+}
+
+.properties-page-carlston-house h1 {
+  font-weight: bold;
+  font-size: 45px;
+  font-family: 'Playfair Display', serif;
+  line-height: 1.04;
+}
+
+.properties-page-carlston-house .properties-page-price {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.properties-page-carlston-house .properties-page-description-icons {
+  display: flex;
+}
+
+.properties-page-carlston-house .properties-page-description {
+  color: #888989;
+  font-size: 14px;
+  line-height: 1.79;
+  text-align: left;
+}
+
+.properties-page-second-section {
+  padding-bottom: 75px;
+}
+
+.properties-page-second-section .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.properties-page-second-section h2, .properties-page-second-section h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.properties-page-agent-profile {
+  display: flex;
+  border: 1px solid #cccccc;
+}
+
+.properties-page-agent-info {
+  padding: 0 75px 0 25px;
+  font-family: 'Poppins', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.properties-page-agent-info .properties-page-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+.properties-page-agent-info h4 {
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  margin-right: auto;
+}
+
+.properties-page-agent-info ul li {
+  font-size: 12px;
+  color: #888989;
+  line-height: 1.79;
+}
+
+.properties-page-agent-info .properties-page-rounded-button {
+  width: 174px;
+  height: 55px;
+  display: block;
+  margin-right: auto;
+}
+
+.properties-page-agent-info .properties-page-rounded-button button {
+  width: 153px;
+  margin-right: auto;
+}
+
+.properties-page-about-the-property {
+  font-family: 'Poppins', serif;
+}
+
+.properties-page-about-the-property .properties-page-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.properties-page-about-the-property .properties-page-rounded-button button {
+  width: 160px;
+}
+
+.properties-page-about-the-property h4 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.properties-page-about-the-property p, .properties-page-about-the-property ul li {
+  color: #888989;
+  font-size: 14px;
+  line-height: 1.79;
+  text-align: left;
+}
+
+.properties-page-looking-to-sell {
+  border: 1px solid #cccccc;
+  padding: 75px 0px;
+}
+
+.properties-page-looking-to-sell img {
+  height: 40px;
+  display: block;
+  margin: auto;
+}
+
+.properties-page-looking-to-sell p {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.properties-page-looking-to-sell .properties-page-rounded-button {
+  display: block;
+}
+
+.properties-page-looking-to-sell .properties-page-rounded-button button {
+  margin: auto;
+  box-shadow: 0 11px 24px 0 rgba(0, 0, 0, 0.27);
+}
+
+.properties-page-third-section {
+  position: relative;
+  background: #F1F2F6;
+  padding-bottom: 50px;
+}
+
+.properties-page-third-section h5 {
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.properties-page-house-block {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 34px 42px 0 rgba(0, 0, 0, 0.08);
+}
+
+.properties-page-house-block .properties-page-house-info {
+  padding: 30px 30px 40px 30px; 
+  background: #ffffff;
+}
+
+.properties-page-house-block .properties-page-address {
+  font-family: 'Poppins', serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.properties-page-house-block .properties-page-location {
+  font-family: 'Poppins', serif;
+  font-size: 13px;
+  color: #afafaf;
+  text-align: left;
+}
+
+.properties-page-house-block .properties-page-size {
+  font-family: 'Poppins', serif;
+  font-size: 13px;
+  text-align: left;  
+}
+
+.properties-page-house-block .properties-page-price {
+  font-family: 'Poppins', serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.properties-page-house-block hr {
+  width: 30px;
+  margin: 10px auto 15px 0;
+}
+
+.properties-page-third-section .properties-page-next-button, .properties-page-third-section .properties-page-prev-button {
+  cursor: pointer;
+}
+
+#house-carousel {
+  display: block;
+  margin: auto;
+  width: 72.5%;
+}
+
+#house-carousel .carousel-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+#house-carousel .carousel-inner .carousel-item {
+  justify-content: space-between;
+  align-items: center;
+}
+
+#house-carousel .carousel-inner .carousel-item.active {
+  display: flex;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 5%;
+}
+
+.carousel-control-next {
+  right: -75px;
+}
+
+.carousel-control-prev {
+  left: -75px;
+}
+
+.lSPager.lSpg {
+  display: none;
+}
+
+.lSAction > a {
+  background-image: url('./assets/lightslider/controls.png');
+}
+
+.lSSlideWrapper {
+  max-width: 60%;
+  margin: auto;
+}
+
+#properties-page-prev-button {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 12.5%;
+}
+
+#properties-page-next-button {
+  cursor: pointer;
+  position: absolute;
+  right: 12.5%;
+  top: 50%;
+}
+
+.properties-page-footer {
+  padding: 100px 75px;
+}
+
+.properties-page-footer h6 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.properties-page-footer .properties-page-links-and-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.properties-page-footer ul li {
+  display: inline-block;
+}
+
+.properties-page-footer ul li a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  color: #868686;
+}
+
+.properties-page-footer ul li a:hover {
+  text-decoration: none;
+  color: #868686;
+}
+
+.properties-page-footer .properties-page-copyright {
+  text-align: right;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  color: #c4c4c4;
+}
+
+.properties-page-footer .properties-page-social-media img {
+  width: 25px;
+  height: 25px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .properties-page-header {
+    padding: 20px 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .properties-page-header .properties-page-helmsmen-logo {
+    width: 150px;
+    height: 30px;  
+  }
+
+  .properties-page-first-section {
+    flex-direction: column;
+  }
+
+  .properties-page-second-section .container{
+    flex-direction: column;
+  }
+
+  .properties-page-about-the-property .properties-page-buttons {
+    flex-direction: column;
+  }
+
+  .properties-page-meet-the-agent {
+    margin-top: 50px;
+  }
+
+  .properties-page-agent-profile {
+    padding-top: 50px;
+    flex-direction: column;
+  }
+
+  .properties-page-agent-profile img {
+    height: 175px;
+    width: 150px;
+    margin: auto;
+  }
+
+  .properties-page-agent-info {
+    padding: 20px 35px;
+    padding-top: 40px;
+  }
+
+  .properties-page-agent-info .properties-page-name, .properties-page-agent-info h4, .properties-page-agent-info .properties-page-rounded-button {
+    margin: auto;
+  }
+
+  .properties-page-agent-info h4 {
+    padding: 0 12.5px;
+    text-align: left;
+    margin: 0;
+    margin-right: auto;
+  }
+
+  .properties-page-agent-info ul {
+    padding: 0 10px;
+  }
+
+  .properties-page-footer {
+    padding: 60px 0;
+  }
+
+  .properties-page-footer .properties-page-links-and-media {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .properties-page-footer .properties-page-logo {
+    order: 1;
+    margin-bottom: 40px;
+  }
+
+  .properties-page-footer .properties-page-social-media {
+    order: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .properties-page-footer .properties-page-links {
+    order: 3;
+    margin-bottom: 40px;
+  }
+
+  .properties-page-footer ul {
+    text-align: center;
+  }
+
+  .properties-page-footer .properties-page-copyright {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .lSSlideWrapper {
+    max-width: 86%;
+  }
+
+  #lightSlider li {
+    width: 240px;
+  }
+
+  .properties-page-carlston-house {
+    padding: 50px 15px;
+  }
+
+  .properties-page-carlston-house h1 {
+    font-size: 35px;
+  }
+
+  .properties-page-carlston-house .properties-page-price {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  .properties-page-carlston-house .properties-page-description-icons {
+    flex-direction: column;
+  }
+
+  .properties-page-text-icon span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.79;
+    letter-spacing: 1px;
+  }
+
+  .properties-page-text-icon:last-of-type {
+    margin-top: 15px;
+  }
+
+  .properties-page-text-icon:last-of-type img {
+    margin-right: 30px;
+  }
+
+  .properties-page-carlston-house .properties-page-rounded-button {
+    display: block;
+  }
+
+  .properties-page-about-the-property .properties-page-map {
+    height: 300px;
+    width: 270px;
+    display: block;
+    margin: auto;
+  }
+
+  .properties-page-about-the-property button {
+    width: 214px !important;
+  }
+
+  .properties-page-about-the-property h4 {
+    line-height: 1.79;
+  }
+
+  #house-carousel {
+    width: 100%;
+  }
+
+  #properties-page-prev-button {
+    display: none;
+    left: 2%;
+  }
+
+  #properties-page-next-button {
+    display: none;
+    right: 2%;
+  }
+}
